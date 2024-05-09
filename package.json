@@ -1,0 +1,22 @@
+{
+  "name": "auth0passportjssociallogin",
+  "version": "1.0.0",
+  "description": "This is the backend server for the AuthOClient login logout functionality with AuthO and Social web applications.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Mayank CHoudhary",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^2.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "passport": "^0.5.3",
+    "passport-facebook": "^3.0.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
